@@ -81,20 +81,52 @@ hr{
 }
 
 .box-part{
-    background-color: white;
-}
-
-
-.form-conatiner{
-    margin: 20px;
+    background-color: #fff;
     width: 360px;
     height: 360px;
-    justify-content: center;
-    align-items: center;
-}
-.form-conatiner input{
-    display: block;
-    padding-bottom: 20px;
+    border-radius: 15px 0;
     
+}
+
+.header-form{
+    background-color: #f5f5f5;
+    padding: 10px 30px;
+    height: 50px;
+    width: 300px;
+    margin: 0 auto;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center; 
+    border-radius: 15px 0;
+}
+
+span{
+    color: #ff8b38;
+}
+
+.form-parpa{
+    background-color:#ff8b38 ;
+    color: white;
+    margin-top: 90px;
+    height: 50px;
+    padding: 20px 30px;
+    padding-bottom: 0;
+    width: 300px;
+    font-family: sans-serif;
+    font-size: 24px;
+    text-align: center;
 
 }
+
+.form-conatiner input{
+    color: #d6d6d6;
+    font-size: 18px;
+    margin: 30px;
+    padding: auto;
+    padding-right: 60px;
+    display: block;
+    border-top: #d6d6d6;
+    border-left: #fff;
+    border-right: #fff;
+}
+    
